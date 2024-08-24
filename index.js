@@ -5,7 +5,7 @@ const schoolRoutes = require('./src/routes/schoolRoutes');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4001;
 
 const corsOptions = {
     origin: '*',  
